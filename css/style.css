@@ -334,3 +334,17 @@ h5 {
     color:#D43F52;
     border-color:transparent;
 }
+
+#about .img-responsive {
+    width: 70%;
+    height: auto;
+    border-radius: 10px;     /* slightly rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15); /* subtle shadow */
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Hover effect */
+  #about .img-responsive:hover {
+    transform: scale(1.03);  /* slightly zooms on hover */
+  }
